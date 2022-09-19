@@ -1,0 +1,43 @@
+body {
+    width: 80%;
+    background: hsl(34, 30%, 82%);
+    color: hsl(8, 8%, 8%);
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    padding-left: 5%;
+    border: 4px solid hsl(32, 30%, 69%);
+    border-radius: 2px;
+    background: hsl(43, 32%, 91%);
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: hsl(200, 15%, 35%)
+}
+
+span {
+    color: hsl(200, 15%, 35%);
+    font-style: italic;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    font-size: 1.2em;
+    color: hsl(240, 100%, 27%);
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: square;
+    line-height: 2.4em;
+}
