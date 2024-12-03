@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: whitesmoke;
+  padding: 16px;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
