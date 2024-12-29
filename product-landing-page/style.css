@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-size: 16px;
+  font-family: "Roboto", serif;
+}
+
+body {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+/* Nav section */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hwb(215 12% 78%);
+  color: hwb(0 96% 4%);
+  padding: 16px;
+  font-size: 1.2rem;
+}
+
+.fa-google-scholar {
+  font-size: 1.2rem;
+  color: hwb(39 30% 10%);
+}
+
+.logo {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+/* Main section */
+
+main {
+  display: flex;
+  gap: 16px;
+  background-color: hwb(215 12% 78%);
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-card,
+.img-card {
+  display: flex;
+  flex: 1;
+}
+
+.text-card {
+  flex-direction: column;
+  color: hwb(0 96% 4%);
+}
+
+.text-card h1 {
+  margin-bottom: 32px;
+  color: hwb(39 30% 10%);
+}
+
+.img-card {
+  width: 500px;
+}
+
+.img-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Programs section */
+
+.programs-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.programs-card {
+  display: flex;
+  width: 400px;
+  height: 450px;
+  flex-direction: column;
+  background-color: hwb(195 90% 3%);
+  padding: 14px;
+  box-shadow: 3px 2px 3px hwb(39 50% 0%);
+}
+
+.programs-card img {
+  width: 100%;
+  height: auto;
+}
+
+.text-tile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-tile-card ul {
+  list-style: none;
+}
+
+.text-tile-card h4 {
+  padding-top: 20px;
+  padding-bottom: 24px;
+  color: hwb(39 30% 10%);
+}
+
+/* Quote section */
+
+.quote-section {
+  height: 300px;
+  background-color: hwb(220 90% 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.quote-section footer {
+  font-weight: 900;
+}
+
+/* CTA section */
+
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: hwb(195 68% 10%);
+  font-size: 1.2rem;
+}
+
+.cta-text,
+.sign-up-btn {
+  padding: 32px;
+}
+
+.sign-up-btn button {
+  font-size: 1.2rem;
+  color: hwb(0 96% 4%);
+  background-color: hwb(39 30% 10%);
+  cursor: pointer;
+  border: none;
+  border-radius: 14px;
+  padding: 4px 8px;
+}
+
+/* Footer section */
+
+.footer-section footer {
+  background-color: hwb(215 12% 78%);
+  padding: 18px;
+  text-align: center;
+  color: hwb(0 96% 4%);
+}
